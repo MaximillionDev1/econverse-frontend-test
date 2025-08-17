@@ -1,0 +1,49 @@
+.banner {
+    width: 100vw;
+    height: 390px;
+    background: url("../../assets/BackgroundBanner.png") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.banner .content {
+    margin-left: 80px;
+    color: #fff;
+    max-width: 500px;
+}
+
+.banner .content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.banner .content p {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.banner .content p .highlight {
+    color: #ffcd00;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.banner .ctaButton {
+    height: 50px;
+    width: 206px;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffcd00;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.banner .ctaButton:hover {
+    background-color: #e6b800;
+}

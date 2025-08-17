@@ -1,0 +1,71 @@
+.categories {
+    width: 100%;
+    padding: 32px 0;
+    overflow-x: auto;
+
+}
+
+.wrapper {
+    display: flex;
+    gap: 24px;
+    padding: 0 24px;
+    min-width: fit-content;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 148px;
+    height: 171px;
+    background: #f8f8f8;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 8px;
+
+    img {
+        width: 100%;
+        height: 171px;
+        object-fit: contain;
+        margin-bottom: 8px;
+    }
+
+    span {
+        font-size: 15px;
+        color: #333;
+        font-weight: 500;
+        text-align: center;
+        padding: 0 4px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+    }
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.active {
+    background: #fff;
+    border: 2px solid #5e3bef;
+    position: relative;
+
+    span {
+        color: #5e3bef;
+        font-weight: 600;
+    }
+}

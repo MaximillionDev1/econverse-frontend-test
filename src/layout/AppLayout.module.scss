@@ -1,0 +1,10 @@
+.appLayout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    padding-block: calc(var(--spacing) * 6);
+}
