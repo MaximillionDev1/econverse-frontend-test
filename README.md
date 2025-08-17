@@ -1,7 +1,7 @@
 Teste Econverse - Frontend Developer Jr
 
+![Demo](https://github.com/user-attachments/assets/41b64ec0-033f-4e56-9b67-ddf33b0a88ba)
 
-![Demonstração do projeto](.src/assets/demo.gif)
 
 Este projeto foi desenvolvido como parte do processo seletivo para a vaga de Desenvolvedor Front-End Jr na Econverse. Consiste em uma vitrine de produtos interativa, criada com React e TypeScript, seguindo fielmente o design do Figma.
 
