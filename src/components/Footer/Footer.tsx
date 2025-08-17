@@ -1,12 +1,11 @@
-import React from 'react';
 import './Footer.scss';
 
-import Logo from '../assets/logo.png';
-import InstagramIcon from '../assets/icons/instagram.png';
-import FacebookIcon from '../assets/icons/facebook.png';
-import LinkedinIcon from '../assets/icons/linkedin.png';
+import Logo from '../../assets/logo.png';
+import InstagramIcon from '../../assets/icons/instagram.png';
+import FacebookIcon from '../../assets/icons/facebook.png';
+import LinkedinIcon from '../../assets/icons/linkedin.png';
 
-const Footer: React.FC = () => {
+const Footer = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted');

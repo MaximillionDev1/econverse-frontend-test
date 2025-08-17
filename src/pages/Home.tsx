@@ -3,7 +3,7 @@ import { BrandsNavigation } from "../components/BrandNavigation.scss/BrandNaviga
 import Categories from "../components/Categories/Categories";
 import { PartnersSection } from "../components/PartnerSection/PartnerSection";
 import ProductShowcase from "../components/ProductsShowcase/ProductShowcase";
-import Footer from "../Footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 
  const Home = () => {
