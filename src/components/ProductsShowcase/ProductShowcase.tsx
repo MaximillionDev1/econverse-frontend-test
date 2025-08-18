@@ -66,7 +66,7 @@ const ProductShowcase: React.FC<ProductShowcaseProps> = ({
   if (error) return <div className="error">{error}</div>;
 
   return (
-    <section className="product-showcase">
+    <main className="product-showcase">
       <h2 className="section-title">
         <span className="title-text">Produtos relacionados</span>
       </h2>
@@ -114,7 +114,7 @@ const ProductShowcase: React.FC<ProductShowcaseProps> = ({
           />
         )}
       </Modal>
-    </section>
+    </main>
   );
 };
 

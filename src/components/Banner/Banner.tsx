@@ -2,7 +2,7 @@ import styles from "./Banner.module.scss";
 
 const Banner = () => {
   return (
-    <section className={styles.banner}>
+    <article className={styles.banner}>
       <div className={styles.content}>
         <h2>Venha conhecer nossas promoções</h2>
         <p>
@@ -10,7 +10,7 @@ const Banner = () => {
         </p>
         <button className={styles.ctaButton}>Ver produto</button>
       </div>
-    </section>
+    </article>
   );
 };
 

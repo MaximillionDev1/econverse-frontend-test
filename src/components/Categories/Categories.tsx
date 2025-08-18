@@ -24,7 +24,7 @@ const Categories = () => {
   const [activeCategory, setActiveCategory] = useState(1);
 
   return (
-    <section className={styles.categories}>
+    <nav className={styles.categories}>
       <div className={styles.wrapper}>
         {categories.map((item) => (
           <div
@@ -38,7 +38,7 @@ const Categories = () => {
           </div>
         ))}
       </div>
-    </section>
+    </nav>
   );
 };
 
