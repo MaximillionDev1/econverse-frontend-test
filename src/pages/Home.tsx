@@ -3,7 +3,6 @@ import { BrandsNavigation } from "../components/BrandNavigation.scss/BrandNaviga
 import Categories from "../components/Categories/Categories";
 import { PartnersSection } from "../components/PartnerSection/PartnerSection";
 import ProductShowcase from "../components/ProductsShowcase/ProductShowcase";
-import Footer from "../components/Footer/Footer";
 
 
  const Home = () => {
@@ -18,7 +17,7 @@ import Footer from "../components/Footer/Footer";
      <PartnersSection />
      <BrandsNavigation />
      <ProductShowcase />
-     <Footer />
+   
     </div>
   );
 };

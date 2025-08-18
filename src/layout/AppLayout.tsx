@@ -1,6 +1,7 @@
 import styles from "./AppLayout.module.scss"
 import { Outlet } from "react-router";
 import Header from "../components/Header/header";
+import Footer from "../components/Footer/Footer";
 
 
 const AppLayout = () => {
@@ -10,6 +11,7 @@ const AppLayout = () => {
 			<main className={styles.main}>
 				<Outlet />
 			</main>
+			<Footer />
 			
 		</div>
 	);
