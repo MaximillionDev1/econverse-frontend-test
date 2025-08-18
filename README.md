@@ -1,69 +1,84 @@
-# React + TypeScript + Vite
+Teste Econverse - Frontend Developer Jr
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Demo](https://github.com/user-attachments/assets/41b64ec0-033f-4e56-9b67-ddf33b0a88ba)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi desenvolvido como parte do processo seletivo para a vaga de Desenvolvedor Front-End Jr na Econverse. Consiste em uma vitrine de produtos interativa, criada com React e TypeScript, seguindo fielmente o design do Figma.
 
-## Expanding the ESLint configuration
+Ele destaca minhas habilidades em componentização, tipagem estática, responsividade e boas práticas de desenvolvimento.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🚀 Funcionalidades
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Vitrine de produtos: Listagem dinâmica a partir de JSON externo.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Modal interativo: Informações detalhadas do produto ao clicar, sem bibliotecas externas.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Responsividade: Layout adaptável a diferentes telas (pixel-perfect).
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+SEO e acessibilidade: HTML semântico e atributos ARIA.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Componentização limpa: Separação clara entre UI e lógica, facilitando manutenção.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🛠 Tecnologias
+
+React.js
+
+TypeScript
+
+Sass (BEM)
+
+HTML5 semântico
+
+Vite (build tool rápida e moderna)
+
+💻 Como Executar
+Pré-requisitos
+
+Node.js v16+
+
+npm ou yarn
+
+Passos
+git clone https://github.com/MaximillionDev1/econverse-frontend-test.git
+cd econverse-frontend-test
+npm install   # ou yarn install
+npm run dev   # ou yarn dev
+
+
+O app estará disponível em http://localhost:5173
+
+Build para produção:
+
+npm run build   # ou yarn build
+
+✅ Diferenciais
+
+Componentização clara e modular
+
+TypeScript para maior confiabilidade
+
+Performance otimizada no carregamento de produtos
+
+Foco em acessibilidade e SEO
+
+Estilização fiel ao Figma usando Sass e BEM
+
+Modal construído sem bibliotecas externas, mostrando habilidade em lógica pura de React
+
+📝 Notas de Desenvolvimento
+
+Projeto pixel-perfect baseado no Figma
+
+Consumo de dados via JSON externo
+
+Modal funcional e responsivo sem dependências externas
+
+Código modular e fácil de evoluir
+
+📧 Contato
+
+Nome: Matheus Vinicius
+
+LinkedIn: https://www.linkedin.com/in/matheus-vinicius-dev/
+
+E-mail: matheusdevsilv4@gmail.com
